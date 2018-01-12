@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sign.language.translator.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/action_connect"
+        android:orderInCategory="100"
+        android:title="Connect"
+        app:showAsAction="never"/>
+    
+        <item
+        android:id="@+id/action_test"
+        android:orderInCategory="100"
+        android:title="test word"
+        app:showAsAction="never"/>
+</menu>
